@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="./assets/grid.css">
+        <link rel="stylesheet" href="./assets/main.css">
+        <title>Document</title>
+
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="modol register">
+            <div class="mains">
+                <span class="close-btn"><i class="fas fa-times"></i></span>
+                <form action="" method="POST" class="form" id="form-1">
+                  <h3 class="heading">Đăng ký</h3>
+                  <p class="desc">Đăng ký tài khoản để du lịch cùng Hiểu Chể nào ❤️</p>              
+                  <div class="spacer"></div>              
+                  <div class="form-group">
+                    <label for="fullname" class="form-label">Tên đầy đủ</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="VD: Hiểu Chể" class="form-control">
+                    <span class="form-message"></span>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" type="text" placeholder="VD: Levanhieu12112002@gmail.com" class="form-control">
+                    <span class="form-message"></span>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                    <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                    <span class="form-message"></span>
+                    <span class="form-submit">Đăng ký</span>
+                  </div>
+                </form>              
+              </div>
+        </div>
+        <div class="modol login">
+            <div class="mains">
+                <span class="close-btn-login"><i class="fas fa-times"></i></span>
+                <form action="" method="POST" class="form" id="form-1">
+                  <h3 class="heading">Đăng Nhập</h3>
+                  <p class="desc">Đăng nhập tài khoản để du lịch cùng Hiểu Chể nào ❤️</p>
+              
+                  <div class="spacer"></div>
+              
+                  <div class="form-group">
+                    <label for="fullname" class="form-label">Tên đầy đủ</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="VD: Hiểu Chể" class="form-control">
+                    <span class="form-message"></span>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" type="text" placeholder="VD: Levanhieu12112002@gmail.com" class="form-control">
+                    <span class="form-message"></span>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                    <span class="form-submit-login">Đăng Nhập</span>
+                  </div>
+            
+                </form>
+              
+              </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="header-top">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="topbar-contact-information-icon">
+                                    <span class="phoneNumber">+84 383 471 136</span>
+                                    <a href="#" class="icon-social"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#" class="icon-social"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" class="icon-social"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="icon-social"><i class="fab fa-dribbble"></i></a>
+                                    <a href="#" class="icon-social"><i class="fab fa-behance"></i></a>
+                                    <a href="#" class="icon-social"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="col l-6">
+                                <div class="topbar-login-regix-icon">
+                                    <span class="Login">Login</span>
+                                    <span class="space">|</span>
+                                    <span class="Register">Register</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+
+                <div class="header-behind">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="headerNavigation">
+                                <div class="logo-header-main">
+                                    <img src="./assets/image/logo.webp" alt="" class="logo-header">
+                                    <H1>TRAVELIX</H1>
+                                </div>
+                                
+                                <div class="modol-navigation">
+                                    <span class="icon-close-navigation">
+                                        <i class="fas fa-times icon-navigation icon-close-navigation"></i>
+                                    </span>
+                                    <div class="navigation-header">
+                                        <ul class="navigation-header-select">
+                                            <li class="navigation-header-selec-item">
+                                                <i class="fas fa-home icon-navigation"></i>
+                                                <a class="hello" href="">HOME</a>
+                                                <div class="notice-locate"></div>
+                                            </li>
+                                            <li class="navigation-header-selec-item">
+                                                <i class="fas fa-info-circle icon-navigation"></i>
+                                                <a class="hello" href="">ABOUT US</a>
+                                                <div class="notice-locate"></div>
+                                            </li>
+                                            <li class="navigation-header-selec-item">
+                                                <i class="fas fa-truck-monster icon-navigation"></i>
+                                                <a href="">OFFERS</a>
+                                            </li>
+                                            <li class="navigation-header-selec-item">
+                                                <i class="fas fa-newspaper icon-navigation"></i>
+                                                <a href="">NEWS</a>
+                                            </li>
+                                            <li class="navigation-header-selec-item">
+                                                <i class="fas fa-user-circle icon-navigation"></i>
+                                                <a href=""> PERSONAL</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="logo-search">
+                                    <i class="fas fa-search logo-search-fas"></i>
+                                    <input type="text" placeholder="Search" class="logo-search-input">
+                                </div>
+                                <div class="logo-bar">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-text-main">
+                    <h1 class="header-text-main-first">DISCOVER</h1>
+                    <h1 class="header-text-main-second">the world</h1>
+                    <div class="btn-move">
+                        <h3 class="move">EXPLORE NOW   <i class="fas fa-ellipsis-h"></i></h3>
+                    </div>
+                </div>
+                <div class="place-tours">
+                    <div class="place-tour-item place-tour-item-left">
+                        <i class="fas fas-place-tours fa-hotel"></i>
+                        <span>HOTELS</span>
+                    </div><div class="place-tour-item">
+                        <i class="fas fas-place-tours fa-car"></i>
+                        <span>CAR RENTALS</span>
+                    </div>
+                    <div class="place-tour-item">
+                        <i class="fas fas-place-tours fa-helicopter"></i>
+                        <span>FLIGHTS</span>
+                    </div>
+                    <div class="place-tour-item">
+                        <i class="fab fas-place-tours fa-accusoft"></i>
+                        <span>TRIPS</span>
+                    </div>
+                    <div class="place-tour-item">
+                        <i class="fas fas-place-tours fa-ship"></i>
+                        <span>CUISES</span>
+                    </div>
+                    <div class="place-tour-item place-tour-item-right">
+                        <i class="fas fas-place-tours fa-gamepad"></i>
+                        <span>ACTIVITIES</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="containers-contain">
+            <div class="container-regits">
+                <div class="place-tours-mobile ">
+                    <div class="place-tour-mobile-item place-tour-item-left">
+                        <div><i class="fas fas-place-tour-icon fas-place-tours fa-hotel"></i></div>
+                        <span>HOTELS</span>
+                    </div>
+                    <div class="place-tour-mobile-item">
+                        <div><i class="fas fas-place-tour-icon fas-place-tours fa-car"></i></div>
+                        <span>CAR RENTALS</span>
+                    </div>
+                    <div class="place-tour-mobile-item">
+                        <div><i class="fas fas-place-tour-icon fas-place-tours fa-helicopter"></i></div>
+                        <span>FLIGHTS</span>
+                    </div>
+                    <div class="place-tour-mobile-item">
+                        <div><i class="fab fas-place-tour-icon fas-place-tours fa-accusoft"></i></div>
+                        <span>TRIPS</span>
+                    </div>
+                    <div class="place-tour-mobile-item">
+                        <div><i class="fas fas-place-tour-icon fas-place-tours fa-ship"></i></div>
+                        <span>CUISES</span>
+                    </div>
+                    <div class="place-tour-mobile-item place-tour-item-right">
+                        <div><i class="fas fas-place-tour-icon fas-place-tours fa-gamepad"></i></div>
+                        <span>ACTIVITIES</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="infomation-personal">
+                    <div class="grid wide">
+                        <div class="row">
+                            <section class="checkIn regits-form col l-3 m-6 c-12">
+                                <h3 class="regit-checkIn">DESTINATION</h3>
+                                <input type="text" class="input-regits-form1">
+                            </section>
+    
+                            <div class="checkIn col l-3 m-6 c-12">
+                                <h3 class="regit-checkIn">CHECK IN</h3>
+                                <input type="text" placeholder="DD-MM-YYYY" class="input-regits-form1-checkIn">
+                            </div>
+                            <div class="checkIn col l-3 m-6 c-12">
+                                <h3 class="regit-checkIn">CHECK OUT</h3>
+                                <input type="text"  class="input-regits-form1-checkOut">
+                            </div>
+                            <div class="checkIn col l-3 m-6 c-12">
+                                <div class="grid">
+                                    <div class="row">
+                                        <div class="activiti col l-6 m-12 c-12">
+                                            <h3 class="regit-checkIn">ADULTS</h3>
+                                            <input type="text"  class="input-regits-form1-checkOut">
+                                        </div>
+                                        <div class="activiti activiti-tablet col l-6 m-12 c-12">
+                                            <h3 class="regit-checkIn">CHILDREN</h3>
+                                            <input type="text"  class="input-regits-form1-checkOut">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activiti activiti-tablet2 col m-6 c-12">
+                                <h3 class="regit-checkIn">CHILDREN</h3>
+                                <input type="text"  class="input-regits-form1-checkOut">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-searchs">
+                <h3>Search</h3>
+            </div>
+            <div class="clear"></div>
+        </div>  
+        <div class="slider-container">
+            <div class="grid wide">
+                <div class="slider">
+                    <div class="slides">
+                      <!--radio buttons start-->
+                      <input type="radio" name="radio-btn" id="radio1">
+                      <input type="radio" name="radio-btn" id="radio2">
+                      <input type="radio" name="radio-btn" id="radio3">
+                      <input type="radio" name="radio-btn" id="radio4">
+                      <!--radio buttons end-->
+                      <!--slide images start-->
+                        <div class="slide first">
+                            <img src="http://lacviettravel.com.vn/wp-content/uploads/2017/02/hawaii01.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://vcdn-dulich.vnecdn.net/2021/03/25/HawaiiReopeningHowIsIt-hero-8796-1616645836.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://vcdn-dulich.vnecdn.net/2021/03/25/HawaiiReopeningHowIsIt-hero-8796-1616645836.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://vcdn-dulich.vnecdn.net/2021/03/25/HawaiiReopeningHowIsIt-hero-8796-1616645836.jpg" alt="">
+                        </div>
+                      <!--slide images end-->
+                      <!--automatic navigation start-->
+                      <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                      </div>
+                      <!--automatic navigation end-->
+                    </div>
+                    <!--manual navigation start-->
+                    <div class="navigation-manual">
+                      <label for="radio1" class="manual-btn"></label>
+                      <label for="radio2" class="manual-btn"></label>
+                      <label for="radio3" class="manual-btn"></label>
+                      <label for="radio4" class="manual-btn"></label>
+                    </div>
+                    <!--manual navigation end-->
+                  </div>
+                  <!--image slider end-->
+            
+                </div>
+                <!-- image slider end -->
+            </div>
+        </div>
+        <div class="content-tours">
+            <div class="header-content-tours">
+                <h2 class="header-tours">We have the best tours</h2>
+                <p class="decription-tour">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                <p class="decription-tour">Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+            </div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="content-tours-list col l-4 m-12 c-12">
+                        <div class="content-tours-img">
+                            <div class="intro-tour">
+                                <h4 class="intro-tour-header">May 25th - June 01st</h4>
+                                <h1 class="intro-tour-name">Mauritius</h1>
+                                <p>From $1450</p>
+                                <div class="tour-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="btn-move btn-move-tour">
+                                    <h3 class="move">SEE MORE   <i class="fas fa-ellipsis-h"></i></h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="content-tours-list col l-4 m-12 c-12">
+                        <div class="content-tours-img">
+                            <div class="intro-tour">
+                                <h4 class="intro-tour-header">May 25th - June 01st</h4>
+                                <h1 class="intro-tour-name">Greece</h1>
+                                <p>From $1450</p>
+                                <div class="tour-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="btn-move btn-move-tour">
+                                    <h3 class="move">SEE MORE   <i class="fas fa-ellipsis-h"></i></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-tours-list col l-4 m-12 c-12">
+                        <div class="content-tours-img">
+                            <div class="intro-tour">
+                                <h4 class="intro-tour-header">May 25th - June 01st</h4>
+                                <h1 class="intro-tour-name">Scotland</h1>
+                                <p>From $1450</p>
+                                <div class="tour-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="btn-move btn-move-tour">
+                                    <h3 class="move">SEE MORE   <i class="fas fa-ellipsis-h"></i></h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="decription">
+            <div class="grid wide">
+                <div class="decription-child">
+                    <h2 class="header-decription">We have the best tours</h2>
+                    <div class="decription-star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="decription-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.Lorem ipsum dolor sit amet</p>
+                    <div class="btn-move btn-decription">
+                        <h3 class="move">BOOK NOW      <i class="fas fa-ellipsis-h"></i></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+        <div class="famous-place">
+            <div class="grid wide">
+                <h2 class="header-famous-place">THE BEST OFFERS WITH ROOMS</h2>
+                <div class="row">
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-child"></div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-price">
+                            <div class="famous-place-offer-price">$50
+                                <span>per night</span>
+                            </div>
+                            <div class="famous-place-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                            <div class="famous-place-icon">
+                                <i class="fab fa-tencent-weibo"></i>
+                                <i class="far fa-clock"></i>
+                                <i class="fas fa-bicycle"></i>
+                                <i class="fab fa-shopware"></i>
+                            </div>
+                            <a href="">READ MORE</a>
+    
+    
+                        </div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-child"></div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-price">
+                            <div class="famous-place-offer-price">$50
+                                <span>per night</span>
+                            </div>
+                            <div class="famous-place-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                            <div class="famous-place-icon">
+                                <i class="fab fa-tencent-weibo"></i>
+                                <i class="far fa-clock"></i>
+                                <i class="fas fa-bicycle"></i>
+                                <i class="fab fa-shopware"></i>
+                            </div>
+                            <a href="">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-child"></div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-price">
+                            <div class="famous-place-offer-price">$50
+                                <span>per night</span>
+                            </div>
+                            <div class="famous-place-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                            <div class="famous-place-icon">
+                                <i class="fab fa-tencent-weibo"></i>
+                                <i class="far fa-clock"></i>
+                                <i class="fas fa-bicycle"></i>
+                                <i class="fab fa-shopware"></i>
+                            </div>
+                            <a href="">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-child"></div>
+                    </div>
+                    <div class="famous-place-child-item col l-3 m-6 c-12">
+                        <div class="famous-place-child-item-price">
+                            <div class="famous-place-offer-price">$50
+                                <span>per night</span>
+                            </div>
+                            <div class="famous-place-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                            <div class="famous-place-icon">
+                                <i class="fab fa-tencent-weibo"></i>
+                                <i class="far fa-clock"></i>
+                                <i class="fas fa-bicycle"></i>
+                                <i class="fab fa-shopware"></i>
+                            </div>
+                            <a href="">READ MORE</a>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+        <div class="places-tours">
+            <div class="header-content-tours">
+                <h2 class="header-tours">WHAT OUR CLIENTS SAY ABOUT US</h2>
+                
+            </div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="places-tours-list col l-4 m-12 c-12">
+                        <div class="places-tours-img">
+                            <div class="intro-tour">
+                                <h4 class="intro-tour-header">May 25th - June 01st</h4>
+                                <h1 class="intro-tour-name">Mauritius</h1>
+                                <p>From $1450</p>
+                                <div class="tour-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="btn-move btn-move-tour">
+                                    <h3 class="move">SEE MORE   <i class="fas fa-ellipsis-h"></i></h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="places-tours-list col l-4 m-12 c-12">
+                        <div class="places-tours-img">
+                            <div class="intro-tour">
+                                <h4 class="intro-tour-header">May 25th - June 01st</h4>
+                                <h1 class="intro-tour-name">Greece</h1>
+                                <p>From $1450</p>
+                                <div class="tour-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="btn-move btn-move-tour">
+                                    <h3 class="move">SEE MORE   <i class="fas fa-ellipsis-h"></i></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="places-tours-list col l-4 m-12 c-12">
+                        <div class="places-tours-img">
+                            <div class="intro-tour">
+                                <h4 class="intro-tour-header">May 25th - June 01st</h4>
+                                <h1 class="intro-tour-name">Scotland</h1>
+                                <p>From $1450</p>
+                                <div class="tour-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="btn-move btn-move-tour">
+                                    <h3 class="move">SEE MORE   <i class="fas fa-ellipsis-h"></i></h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+        <div class="contact-tourss">
+            <div class="header-content-tours header-tours-contact">
+                <h2 class="header-tours">TRENDING NOW</h2>
+            </div>
+            <div class="contact-tours-item grid wide">
+                <div class="row trending-nows">
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793332366_578413ecb62e1717b1e1391e84cad7a7.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">GRAND HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793388071_c9dc55ef0331125023cfa964b3dca070.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">MARS HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793406667_89f73154e781c52062ffdf6fda1cb6b4.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">QUEEN HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793448888_4136849920fcac5455fb9372531487a1.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">GRAND HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793483350_a57ec2e6e55600b282bc93f29c6c8091.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">GRAND HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793507643_5dabdd73a922ecc912d9dc8c17247da6.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">GRAND HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793526233_dee8ea2037199cb0536d34a87b1e9fc0.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">GRAND HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="trending-now l-3 m-6 c-12">
+                        <img src="../HieuLoveHa/image/z2593793543966_630ffbdaef6f20479458e5ae3f51d635.jpg"alt="" class="img-trending-now">
+                        <div class="trending-now-infomation">
+                            <h3 class="titel-trending">GRAND HOTEL</h3>
+                            <span class="price-trending">From $182</span>
+                            <p class="place-trending">MADRID, SPAIN</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+        <div class="cards">
+            <div class="grid wide">
+                <div class="card-image">
+                    <div class="imgBox">
+                        <img src="/w3_ban/HieuLoveHa/image/z2593793526233_dee8ea2037199cb0536d34a87b1e9fc0.jpg" alt="">
+                        <img src="/w3_ban/HieuLoveHa/image/z2593793448888_4136849920fcac5455fb9372531487a1.jpg" alt="">
+                    </div>
+                    <div class="detail-contain">
+                        <div class="content-card">
+                            <h2>Some famous place</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="footer-item col l-3 m-6 c-12">
+                        <div class="logo-header-main">
+                            <img src="./assets/image/logo.webp" alt="" class="logo-header">
+                            <H1>TRAVELIX</H1>
+                        </div>
+                        <p class="description-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.</p>
+                        <div class="topbar-contact-information-icon">
+                            <a href="#" class="icon-social"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" class="icon-social"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="icon-social"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="icon-social"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" class="icon-social"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon-social"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-item col l-3 m-6 c-12">
+                        <div class="title-footer"><h3>BLOG POSTS</h3></div>
+                        <div class="footer-blog-date">
+                            <img src="../HieuLoveHa/image/z2593793610215_4a1a0db82f79411cdbf2a8dfdd55c4c7.jpg" alt="" class="footer-blog-date-img">
+                            <div class="footer-blog-date-child">
+                                <h3 class="titel-trending">Travel with us this year</h3>
+                                <span class="price-trending">From $182</span>
+                            </div>
+                        </div>
+                        <div class="footer-blog-date">
+                            <img src="../HieuLoveHa/image/z2593793610215_4a1a0db82f79411cdbf2a8dfdd55c4c7.jpg" alt="" class="footer-blog-date-img">
+                            <div class="footer-blog-date-child">
+                                <h3 class="titel-trending">New destinations for you</h3>
+                                <span class="price-trending">From $182</span>
+                            </div>
+                        </div>
+                        <div class="footer-blog-date">
+                            <img src="../HieuLoveHa/image/z2593793610215_4a1a0db82f79411cdbf2a8dfdd55c4c7.jpg" alt="" class="footer-blog-date-img">
+                            <div class="footer-blog-date-child">
+                                <h3 class="titel-trending">Travel with us this year</h3>
+                                <span class="price-trending">From $182</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer-item col l-3 m-6 c-12">
+                        <div class="title-footer"><h3>TAGS</h3></div>
+                        <div class="footer-item-games">
+                            <div class="footer-item-game">
+                                <a href="">design</a>
+                                <a href="">fashion</a>
+                            </div>
+                            <div class="footer-item-game">
+                                <a href="">music</a>
+                                <a href="">video</a>
+                            </div>
+                            <div class="footer-item-game">
+                                <a href="">party</a>
+                                <a href="">photogarphy</a>
+                            </div>
+                            <div class="footer-item-game">
+                                <a href="">adventure</a>
+                                <a href="">travel</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="footer-item col l-3 m-6 c-12">
+                        <div class="title-footer"><h3>CONTACT INFO</h3></div>
+                        <div class="contact-info-footer">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#">4127 Raoul Wallenber 45b-c Gibraltar</a>
+                        </div>
+                        <div class="contact-info-footer">
+                            <i class="fas fa-phone-volume"></i>
+                            <a href="#">0383 471 136</a>
+                        </div>
+                        <div class="contact-info-footer">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <a href="#">levanhieu12112002@gmail.com</a>
+                        </div>
+                        <div class="contact-info-footer">
+                            <i class="fab fa-wordpress-simple"></i>
+                            <a href="#">hieuche123.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script type="module" src="./assets/main.js">
+        </script>
+    </body>
+
+</html>
